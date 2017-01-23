@@ -16,7 +16,7 @@ var api = new ParseServer({
   cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
   appId: process.env.APP_ID || '3kSferTdEhz6Z92fkylrjFetTP5w89frfAVhycuT',
   masterKey: process.env.MASTER_KEY || 'LXv1jovs65RIgaFnFK3UEn2LkoTwCNJvbQfeMDfY', //Add your master key here. Keep it secret!
-  cleinrKey: process.env.CLIENT_KEY || '', //Add your client key here. Keep it secret!
+  cleinrKey: process.env.CLIENT_KEY || 'UI22z3GZXmeRXGDNWeSQ3Kfc0YOly1JWEoRUR8dL', //Add your client key here. Keep it secret!
   fileKey: process.env.FILE_KEY || '716e1338-acde-4376-a6bb-8d51d735d74a', // Add your file key here. Keep it secret!
   serverURL: process.env.SERVER_URL || 'https://kanguru899.herokuapp.com/parse',  // Don't forget to change to https if needed
   liveQuery: {
